@@ -17,10 +17,48 @@
     },
     "location": {
       "newLine": true,
-      "type": "coordinates",
+      "type": "staticText",
       "label": "Place",
-      "system": true,
-      "browser": true,
+      "sm": 12,
+      "md": 6,
+      "lg": 4
+    },
+    "alerts": {
+      "newLine": false,
+      "type": "checkbox",
+      "label": "Recieve Weather Alerts",
+      "sm": 12,
+      "md": 6,
+      "lg": 4
+    },
+    "current": {
+      "newLine": false,
+      "type": "checkbox",
+      "label": "Recieve current Weather",
+      "sm": 12,
+      "md": 6,
+      "lg": 4
+    },
+    "minutely": {
+      "newLine": false,
+      "type": "checkbox",
+      "label": "Recieve minutely Weather (1 Hour)",
+      "sm": 12,
+      "md": 6,
+      "lg": 4
+    },    
+    "hourly": {
+      "newLine": false,
+      "type": "checkbox",
+      "label": "Recieve hourly Weather (48 Hours)",
+      "sm": 12,
+      "md": 6,
+      "lg": 4
+    },
+    "daily": {
+      "newLine": true,
+      "type": "checkbox",
+      "label": "Recieve daily Weather (7 Days)",
       "sm": 12,
       "md": 6,
       "lg": 4
