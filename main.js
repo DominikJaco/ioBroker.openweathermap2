@@ -373,7 +373,7 @@ class Openweathermap extends utils.Adapter {
         return new Promise((resolve, reject) => {
             axios({
                 method: 'get',
-                baseURL: 'https://api.openweathermap.org/data/2.5/forecast',
+                baseURL: 'https://api.openweathermap.org/data/2.5/forecast/daily',
                 params: queryParams,
                 timeout: 10000,
                 responseType: 'json',
